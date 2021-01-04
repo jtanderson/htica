@@ -19,11 +19,17 @@ Following is only a brief description of some key files.
 Third party files are located in the `third_party` folder.
 See the source for full documentation.
 
-`main.m`: Contains code sections to run each algorithm in sequence, both for dampened and undampened data, then plot the results. This is not a function and is meant to be run directly
+`htica.m`: Lets one run the basic HTICA procedure:
+1. Orthogonalize the data
+2. Damp the data (optional)
+3. Pass the processed data through an off-the-shelf ICA routine that now shouldn't have to worry about heavy-tail instability.
+
+`main.m`: Contains code sections to run each algorithm in sequence, both for dampened and undampened data, then plot the results. This is not a function and is meant to be run directly, and leverages the `singlecomparison.m` script to give some performance comparisons between algorithms.
 
 `singlecomparison.m`: provides the function `singlecomparison(dim, lowersize, highsize, step, varargin)` which invokes a script to generate heavy-tailed samples, `S`, generates a random mixing matrix `A`, then proceeds to run a chosen ICA algorithm to recover the mixing matrix.
 Finally, computes various error metrics and returns them in a 2-row matrix.
 Columns of this matrix correspond to each different sample size used for the ICA algorithm
+This does not directly use the `htica.m` script because of some internal testing done to, e.g. compute the correction with the true mixing matrix; but the process is the same.
 
 `minkowskiCentroid.m`: uses the Minkowski functional to perform membership queries in the centroid body.
 See [1].
