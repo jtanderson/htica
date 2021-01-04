@@ -15,23 +15,22 @@ The purpose of the code is to compare various methods of solving the ICA problem
 
 ## Contents
 
-Following is only a brief description of each file in the top-level of the directory.
+Following is only a brief description of some key files.
 Third party files are located in the `third_party` folder.
 See the source for full documentation.
 
 `main.m`: Contains code sections to run each algorithm in sequence, both for dampened and undampened data, then plot the results. This is not a function and is meant to be run directly
 
-`singlecomparison.m`: provides the function `singlecomparison(dim, lowersize, highsize, step, varargin)` which invokes a script to generate heavy-tailed samples, `S`, generates a random mixing matrix `A`, then proceeds to run a chosen ICA algorithm to recover the mixing matrix. Finally, computes various error metrics and returns them in a 2-row matrix. Columns of this matrix correspond to each different sample size used for the ICA algorithm
+`singlecomparison.m`: provides the function `singlecomparison(dim, lowersize, highsize, step, varargin)` which invokes a script to generate heavy-tailed samples, `S`, generates a random mixing matrix `A`, then proceeds to run a chosen ICA algorithm to recover the mixing matrix.
+Finally, computes various error metrics and returns them in a 2-row matrix.
+Columns of this matrix correspond to each different sample size used for the ICA algorithm
 
-`minkowskiCentroid.m`: uses the Minkowski functional to perform membership queries in the centroid body. See [1].
+`minkowskiCentroid.m`: uses the Minkowski functional to perform membership queries in the centroid body.
+See [1].
 
-`amari.m`: Used to compute the Amari index of a particular matrix
+`generatesamples.m`: Built to call `mathematicasamples.w` from within Matlab to generate some synethetic data.
 
-`minangle.m`: Auxiliary function to compute the smallest angle between columns of a matrix
-
-`rownorm.m`: Auxiliary function to compute the vector of norms of rows of a matrix
-
-`phaseCorrect.m`: Uses procedure described in Fourier PCA paper to remove complex values from an estimated mixing matrix
+`mathematicasamples.w`: A script for the Wolfram kernel to generate samples from nasty Pareto-like distributions.
 
 ## References
 
