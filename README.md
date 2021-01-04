@@ -1,4 +1,4 @@
-# Heavy-Tailed ICA Experiments
+# Heavy-Tailed Independent Component Analysis
 
 This directory houses the files used to generate experiments for Heavy-Tailed Independent Component Analysis.
 The purpose of the code is to compare various methods of solving the ICA problem when the lower order moments of the source distributions may be undefined.
