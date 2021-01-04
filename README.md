@@ -28,6 +28,8 @@ Columns of this matrix correspond to each different sample size used for the ICA
 `minkowskiCentroid.m`: uses the Minkowski functional to perform membership queries in the centroid body.
 See [1].
 
+`minkowskiCentroidGurobi.m`: same as above, but using the [Gurobi](https://www.gurobi.com/) solver if you have it installed properly.
+
 `generatesamples.m`: Built to call `mathematicasamples.w` from within Matlab to generate some synethetic data.
 
 `mathematicasamples.w`: A script for the Wolfram kernel to generate samples from nasty Pareto-like distributions.
