@@ -34,10 +34,10 @@ See [1].
 
 ## References
 
-- 1. J Anderson, N Goyal, A Nandi, L Rademacher. _Heavy-tailed analogues of the covariance matrix for ICA._ Proceedings of the AAAI Conference on Artificial Intelligence 31 (1)
-- 2. J Anderson, N Goyal, A Nandi, L Rademacher. _Heavy-tailed independent component analysis_. 2015 IEEE 56th Annual Symposium on Foundations of Computer Science, 290-309
-- 3. Belouchrani, A., Abed-Meriam, K., Cardoso, J.F. and Moulines, R. _A blind source separation technique using second-order statistics._ IEEE Transactions on Signal Processing, 434–444.
-- 4. Cardoso, Jean-François, and Antoine Souloumiac. _Blind beamforming for non-Gaussian signals._ IEE proceedings F (radar and signal processing). Vol. 140. No. 6. IET Digital Library, 1993.
-- 5. Goyal, Navin, Santosh Vempala, and Ying Xiao. _Fourier PCA and robust tensor decomposition._ Proceedings of the forty-sixth annual ACM symposium on Theory of computing. 2014.
-- 6. Hyvarinen, A. _Fast ICA for noisy data using Gaussian moments._ 1999 IEEE International Symposium on Circuits and Systems (ISCAS). Orlando, FL, 1999. pp. 57-61 vol.5, doi: 10.1109/ISCAS.1999.777510.
+1. J Anderson, N Goyal, A Nandi, L Rademacher. _Heavy-tailed analogues of the covariance matrix for ICA._ Proceedings of the AAAI Conference on Artificial Intelligence 31 (1)
+2. J Anderson, N Goyal, A Nandi, L Rademacher. _Heavy-tailed independent component analysis_. 2015 IEEE 56th Annual Symposium on Foundations of Computer Science, 290-309
+3. Belouchrani, A., Abed-Meriam, K., Cardoso, J.F. and Moulines, R. _A blind source separation technique using second-order statistics._ IEEE Transactions on Signal Processing, 434–444.
+4. Cardoso, Jean-François, and Antoine Souloumiac. _Blind beamforming for non-Gaussian signals._ IEE proceedings F (radar and signal processing). Vol. 140. No. 6. IET Digital Library, 1993.
+5. Goyal, Navin, Santosh Vempala, and Ying Xiao. _Fourier PCA and robust tensor decomposition._ Proceedings of the forty-sixth annual ACM symposium on Theory of computing. 2014.
+6. Hyvarinen, A. _Fast ICA for noisy data using Gaussian moments._ 1999 IEEE International Symposium on Circuits and Systems (ISCAS). Orlando, FL, 1999. pp. 57-61 vol.5, doi: 10.1109/ISCAS.1999.777510.
 
